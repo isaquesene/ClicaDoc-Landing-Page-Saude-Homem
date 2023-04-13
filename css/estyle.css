@@ -367,6 +367,37 @@ header.sticky{
     margin-top: 100px;  
 }
 
+/*---MODAL2---*/
+
+.modal2::backdrop{
+    background-color: rgba(0,0,0,0.4);
+}
+
+#modal2 {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content2 {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 100px;  
+}
+
+/*---FIM---*/
+
     .close {
     color: #aaa;
     float: right;
