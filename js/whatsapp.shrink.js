@@ -1,7 +1,7 @@
 const content = document.querySelector('[data-shrink="yes"]');
 
 
-const span = document.querySelector('[data-shrink="yes"] span')
+const sp = document.querySelector('[data-shrink="yes"] span')
 
 sp.classList.add('aparecer')
 
