@@ -551,6 +551,60 @@ header.sticky{
     word-spacing: 0px;
 }
 
+
+.receitas{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 2rem;
+    background: white;
+}
+
+
+
+.receitas-img img{
+    max-width: 100%;
+    width: 380px;
+    height: auto;
+}
+
+.item span{
+    color: #0ABAB5;
+}
+
+.item h3{
+    font-family: 'Century Gothic';
+    font-size: var(--h2-font);
+    font-weight: 500;
+}
+
+.item p{
+    font-family: 'Century Gothic';
+    font-weight: 500;
+    font-size: var(--p-font);
+    color: #616161;
+    line-height: 28px;
+    margin-bottom: 30px;
+    
+}
+
+.btn-receita{
+    background-color: #0ABAB5;
+    color: var(--bg-color);
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: var(--p-btn);
+    line-height: 24px;
+    transition: ease .40s;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+.btn-receita:hover{
+    box-shadow: #1D1D1D 5px 18px 10px -15px;
+
+}
+
 /* Fronte do Roda pe */
 .footer{
     background: #FFFFFF;
