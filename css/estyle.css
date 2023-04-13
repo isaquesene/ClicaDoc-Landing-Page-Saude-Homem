@@ -396,9 +396,7 @@ header.sticky{
     margin-top: 100px;  
 }
 
-/*---FIM---*/
-
-    .close {
+.close {
     color: #aaa;
     float: right;
     font-size: 30px;
@@ -407,6 +405,8 @@ header.sticky{
     top: 0;
     right: 1;
 }
+
+/*---FIM---*/
 
     .close:hover,
     .close:focus {
