@@ -1,5 +1,5 @@
 var modal = document.getElementById("modal");
-var btn = document.querySelector("#open-form");
+var btn = document.querySelectorAll("#open-form");
 var span = document.getElementsByClassName("close")[0];
 
 var b = document.getElementById("b");
