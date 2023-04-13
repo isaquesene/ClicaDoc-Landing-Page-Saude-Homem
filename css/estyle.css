@@ -589,6 +589,68 @@ header.sticky{
 }
 
 
+/*--whatsapp--*/
+#div-fixa{
+    position: fixed;
+    bottom: 20px;
+    margin: 0 20px;
+    right: 0;
+    background: rgb(89, 255, 122);
+    width: 230px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+#div-fixa.shrink{
+    width: 50px;
+    transition:  0.5s all;
+    overflow: hidden;
+}
+
+#div-fixa img{
+    width: 50px;
+    height: 50px;
+}
+
+#div-fixa a .flex-itens{
+    display: flex;
+    align-items: center;
+}
+
+#div-fixa a .flex-itens span{
+    display: block;
+    font-family: 'Century Gothic';
+    color: #ffffff;
+    font-size: 16px;
+    min-width: 170px;
+}
+
+
+#div-fixa a .flex-itens span.aparecer{
+    transition: 0.5s all;
+    opacity: 1;
+}
+
+/*.flutuar{
+    animation-name: flutuar;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar {
+    from{
+        transform: translate3d(0,0,0);
+        filter: brightness(100%);
+    }
+    to{
+        transform: translate3d(0,-15px,0);
+        filter: brightness(150%);
+    }
+}*/
+
 .ends{
     text-align: center;
     padding: 40px;
