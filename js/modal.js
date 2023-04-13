@@ -1,13 +1,15 @@
-var modal = document.getElementById("modal");
-const btn = document.querySelectorAll('button[data-modal="open"]');
-var span = document.getElementsByClassName("close")[0];
+const openModalButtons = document.querySelectorAll('.btn-prev');
+const closeModalButton = document.querySelector('.close');
+const modal = document.querySelector('#modal');
 
-var b = document.getElementById("b");
-
-btn.forEach((button) => {
-  btn.addEventListener('click', () => {
-    const modal = document.getElementById('open-modal');
+openModalButtons.forEach((button) => {
+  button.addEventListener('click', () => {
     modal.style.display = 'block';
     b.style.overflowY = 'hidden';
   });
+});
+
+closeModalButton.addEventListener('click', () => {
+  modal.style.display = 'none';
+  b.style.overflowY = 'auto';
 });
