@@ -379,7 +379,7 @@ header.sticky{
     max-width: 700px;
     position: relative;
     border-radius: 20px;
-    margin-top: 100px; 
+    margin-top: 15px; 
     overflow: hidden; 
 }
 
@@ -418,7 +418,7 @@ header.sticky{
     max-width: 700px;
     position: relative;
     border-radius: 20px;
-    margin-top: 100px;  
+    margin-top: 15px;  
 }
 
 .close2 {
