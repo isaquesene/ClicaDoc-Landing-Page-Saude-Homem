@@ -1,24 +1,17 @@
-var modal2 = document.getElementById("modal2");
-var btn2 = document.getElementById("open-form2");
-var span2 = document.getElementsByClassName("close2")[0];
+const buttonsModal2 = '.top-btn, .btn, .btn-receita';
 
-var b = document.getElementById("b");
+const openModalButtons2 = document.querySelectorAll(buttonsModal2);
+const closeModalButton2 = document.querySelector('.close2');
+const modal2 = document.querySelector('#modal2');
 
+openModalButtons2.forEach((button) => {
+  button.addEventListener('click', () => {
+    modal2.style.display = 'block';
+    b.style.overflowY = 'hidden';
+  });
+});
 
-
-btn2.onclick = function() {
-  modal2.style.display = "block";
-  b.style.overflowY = 'hidden';
-}
-
-span2.onclick = function() {
-  modal2.style.display = "none";
+closeModalButton2.addEventListener('click', () => {
+  modal2.style.display = 'none';
   b.style.overflowY = 'auto';
-}
-
-window.onclick = function(event) {
-  if (event.target == modal2) {
-    modal2.style.display = "none";
-    b.style.overflowY = 'auto';
-  }
-}
+});

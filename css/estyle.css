@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -154,7 +155,7 @@ section{
 
 .home-text h3{
     line-height: 1;
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -165,8 +166,8 @@ span{
 }
 
 .home-text p{
-    font-family: 'Century Gothic';
-    font-weight: 500;
+    font-family: 'Jost';
+    font-weight: 400;
     color: #616161;
     font-size: var(--p-font);
     line-height: 28px;
@@ -196,9 +197,35 @@ span{
 }
 
 /*---PREVENÇÃO---*/
+
+
+.top-title{
+    margin-top: 30px auto;
+    display: flex;
+    min-height: 1vh;
+    height: 10%;
+    width: 80%;
+    padding: 10px 15%;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    margin-bottom: 0;
+}
+.prev-title{
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.prev-title span{
+    color: #0ABAB5;
+}
+
+
 .prev{
-    min-height: 100vh;
-    height: 200%;
+    min-height: 50vh;
+    height: 150%;
     width: 100%;
     padding: 50px 15%;
     background-size: cover;
@@ -210,39 +237,27 @@ span{
     background: #ffffff;
 }
 
-.prev-title{
-    font-family: 'Century Gothic';
-    font-size: 2.5rem;
-    font-weight: 700;
-    height: 120px;
-}
-
-.prev-text{
-    margin-bottom: 30px;
-}
-
 .prev-text h3{
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .prev-img img{
-    max-width: 120%;
-    width: 500px;
+    max-width: 100%;
+    width: 980px;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .prev-text p{
-    font-family: 'Century Gothic';
-    font-weight: 500;
+    font-family: 'Jost';
+    font-weight: 400;
     color: #616161;
     font-size: 1.5rem;
     line-height: 28px;
     letter-spacing: 0.03em;
-
+    text-align: left;
 }
 
 .prev-text span{
@@ -295,7 +310,7 @@ header.sticky{
 
 .receita-img img{
     max-width: 100%;
-    width: 380px;
+    width: 680px;
     height: auto;
 }
 
@@ -304,7 +319,7 @@ header.sticky{
 }
 
 .items h3{
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-size: var(--h2-font);
     font-weight: 700;
     text-align: right;
@@ -312,8 +327,8 @@ header.sticky{
 }
 
 .items p{
-    font-family: 'Century Gothic';
-    font-weight: 500;
+    font-family: 'Jost';
+    font-weight: 400;
     color: #616161;
     font-size: 1.5rem;
     line-height: 28px;
@@ -364,7 +379,8 @@ header.sticky{
     max-width: 700px;
     position: relative;
     border-radius: 20px;
-    margin-top: 100px;  
+    margin-top: 100px; 
+    overflow: hidden; 
 }
 
 .close {
@@ -376,7 +392,6 @@ header.sticky{
     top: 0;
     right: 1;
 }
-
 /*---MODAL2---*/
 
 .modal2::backdrop{
@@ -434,7 +449,7 @@ header.sticky{
 }
 
 .especial-text h3{
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-size: var(--h2-font);
     font-weight: 700;
 }
@@ -444,7 +459,7 @@ header.sticky{
 }
 
 .especial-text p{
-    font-family: 'Century Gothic';
+    font-family: 'Jost';
     font-weight: 500;
     font-size: var(--p-font);
     color: #616161;
@@ -490,7 +505,6 @@ header.sticky{
     font-size: 1.4rem;
     color: var(--text-color);
     line-height: 20px;
-    
     -webkit-columns: 250px 3;
     -moz-columns: 250px 3;
     columns: 250px 3;
@@ -528,7 +542,7 @@ header.sticky{
 
 .saude-text h3{
     text-align: center;
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-weight: 500;
     font-size: var(--h2-font);
 }
@@ -538,7 +552,7 @@ header.sticky{
 }
 
 .saude-text p{
-    font-family: 'Century Gothic';
+    font-family: 'Jost';
     font-weight: 500;
     font-size: var(--p-font);
     color: #616161;
@@ -558,6 +572,7 @@ header.sticky{
     align-items: center;
     grid-gap: 2rem;
     background: white;
+    padding: 100px 13%;
 }
 
 
@@ -573,14 +588,15 @@ header.sticky{
 }
 
 .item h3{
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-size: var(--h2-font);
-    font-weight: 500;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .item p{
-    font-family: 'Century Gothic';
-    font-weight: 500;
+    font-family: 'Jost';
+    font-weight: 400;
     font-size: var(--p-font);
     color: #616161;
     line-height: 28px;
@@ -626,7 +642,7 @@ header.sticky{
     font-size: 2rem;
     padding-bottom: 2rem;
     color: #2C7D7A;
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-weight: 400;
 }
 
@@ -642,6 +658,7 @@ header.sticky{
     padding-bottom: 1.5rem;
     display: block;
     font-weight: 300;
+    font-family: 'jost';
 }
 
 .footer .box-container .box a i{
@@ -715,7 +732,7 @@ header.sticky{
 
 #div-fixa a .flex-itens span{
     display: block;
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     color: #ffffff;
     font-size: 16px;
     min-width: 170px;
@@ -781,7 +798,7 @@ header.sticky{
 .title{
     font-size: 2.5rem;
     color: #2C7D7A;
-    font-family: 'Century Gothic';
+    font-family: 'Poppins';
     font-weight: 600;
     text-align: center;
 }
@@ -1022,25 +1039,42 @@ header.sticky{
     }
     .home-img img{
         max-width: 100%;
-        width: 500px;
+        width: 680px;
         height: auto;
-        margin-top: -100px;
+    }
+
+    .especial{
+        padding: 70px 5%;
     }
 
     .prev{
         grid-template-columns: 1fr;
     }
+
+    .prev-text h3{
+        margin-bottom: 20px;
+    }
+
+    .prev-text p{
+        text-align: left;
+        justify-content: space-evenly;
+    }
+
     .prev-img{
         text-align: center;
     }
+
     .prev-img img{
         max-width: 100%;
-        width: 250px;
+        width: 680px;
         height: auto;
-        text-align: center;
-        justify-content: center;
-        padding: 10px 10px;
+        margin-top: -150px;
     }
+
+    .top-title .prev-title{
+       padding: 10px 0%;
+    }
+
     .receita{
         grid-template-columns: 1fr;
     }
@@ -1048,6 +1082,23 @@ header.sticky{
         text-align: center;
     }
     .receita-img img{
+        max-width: 100%;
+        width: 680px;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: -120px;
+        margin-top: 30px;
+    }
+
+    .receitas{
+        grid-template-columns: 1fr;
+        padding: 100px 5%;
+    }
+    .receitas-img{
+        text-align: center;
+    }
+    .receitas-img img{
         max-width: 100%;
         width: 250px;
         height: auto;
@@ -1058,7 +1109,7 @@ header.sticky{
 
     .especial-text p{
         word-spacing: 0px;
-        text-indent: 10px;
+        font-family: 'jost';
     }
 
     .especial-img img{
@@ -1081,9 +1132,26 @@ header.sticky{
     :root{
         --big-font: 3.4rem;
         --h2-font: 2rem;
+        --p-font: 1.3rem;
+        transition: .3s;
     }
     section{
-        padding: 65px 3%;
+        padding: 70px 3%;
         transition: .3s;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+    iframe[src*="https://docs.google.com/forms/d/1HLOkKLwE0U3sVgtjUsMq08KOObpp4uuIVc7Hht2paRU/viewform?edit_requested=true"] {
+        width: 100% !important;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    iframe[src*="https://docs.google.com/forms/d/e/1FAIpQLSe5ZnUS9gr6wIX30iboPX0jma4XO2wXDOIkWwPxoMV87n-93Q/viewform"] {
+        width: 100% !important;
+        height: 800px;
     }
 }

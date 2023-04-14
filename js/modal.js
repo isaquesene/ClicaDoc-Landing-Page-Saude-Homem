@@ -1,4 +1,6 @@
-const openModalButtons = document.querySelectorAll('.btn-prev');
+const buttonsModal = '.btn-prev';
+
+const openModalButtons = document.querySelectorAll(buttonsModal);
 const closeModalButton = document.querySelector('.close');
 const modal = document.querySelector('#modal');
 
