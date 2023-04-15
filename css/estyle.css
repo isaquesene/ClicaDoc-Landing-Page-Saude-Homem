@@ -477,8 +477,13 @@ header.sticky{
 .especial{
     background: #ffffff;
     display: grid;
+    padding: 35px 15%;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     align-items: center;
+    position: relative;
     grid-gap: 2rem;
 }
 
