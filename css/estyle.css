@@ -90,6 +90,42 @@ a{
     display: none;
 }
 
+/*---btn-top-whatsapp---*/
+.top-btn-w{
+    display: inline-block;
+    padding: 5px 15px;
+    background: transparent;
+    border-radius: 30px;
+    font-size: var(--p-btn);
+    font-weight: 400;
+    transition: ease .40s;
+    letter-spacing: 1px;
+    background: rgb(89, 255, 122);
+    border-radius: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 1;
+    gap: 2px;
+    transition: 0.3s all ease-in-out;
+}
+
+.top-btn-w:hover{
+    background: #2eb943;
+}
+
+.fale::before{
+    content: "Fale conosco!";
+    color: #FFFFFF;
+}
+
+.top-btn-w img{
+    width: 30px;
+    height: 30x;
+    display:inline-block; 
+    vertical-align:middle; 
+    margin-right:10px;
+}
+
 .top-btn{
     display: inline-block;
     padding: 9px 30px;
@@ -373,7 +409,7 @@ header.sticky{
     background-color: #fefefe;
     margin: 0 auto;
     padding: 20px;
-    width: 90%;
+    width: 80%;
     max-width: 700px;
     position: relative;
     border-radius: 20px;
@@ -1015,6 +1051,14 @@ header.sticky{
     }
 }
 
+@media (max-width: 400px) {
+    .fale{
+        font-size: 12px;
+    }
+
+}
+
+
 @media (max-width: 800px){
     .top-btn::before{
         font-size: 1rem;
@@ -1023,6 +1067,15 @@ header.sticky{
     .btn-receita .btn{
         align-items: center;
     }
+
+    .fale::before{
+        content: "WhatsApp";
+    }
+ 
+    .top-btn-w{
+        font-size: var(--p-btn);
+    }
+
     .home{
         grid-template-columns: 1fr;
         min-height: 130vh;
