@@ -201,7 +201,6 @@ span{
 
 .top-title{
     margin-top: 30px auto;
-    display: flex;
     min-height: 1vh;
     height: 10%;
     width: 80%;
@@ -209,7 +208,6 @@ span{
     display: flex;
     align-items: center;
     background: #ffffff;
-    margin-bottom: 0;
 }
 .prev-title{
     font-family: 'Poppins';
@@ -224,10 +222,10 @@ span{
 
 
 .prev{
-    min-height: 50vh;
+    min-height: 70vh;
     height: 150%;
     width: 100%;
-    padding: 50px 15%;
+    padding: 10px 15%;
     background-size: cover;
     background-position: center;
     display: grid;
@@ -254,7 +252,7 @@ span{
     font-family: 'Jost';
     font-weight: 400;
     color: #616161;
-    font-size: 1.5rem;
+    font-size: var(--p-font);
     line-height: 28px;
     letter-spacing: 0.03em;
     text-align: left;
@@ -293,10 +291,10 @@ header.sticky{
 }
 
 .receita{
-    min-height: 100vh;
-    height: 200%;
+    min-height: 80vh;
+    height: 150%;
     width: 100%;
-    padding: 50px 15%;
+    padding: 15px 15%;
     background-size: cover;
     background-position: center;
     display: grid;
@@ -379,7 +377,7 @@ header.sticky{
     max-width: 700px;
     position: relative;
     border-radius: 20px;
-    margin-top: 15px; 
+    margin-top: 10px; 
     overflow: hidden; 
 }
 
@@ -418,7 +416,7 @@ header.sticky{
     max-width: 700px;
     position: relative;
     border-radius: 20px;
-    margin-top: 15px;  
+    margin-top: 100px;  
 }
 
 .close2 {
@@ -972,7 +970,7 @@ header.sticky{
     :root{
         --big-font: 4rem;
         --h2-font: 2.3rem;
-        --p-font: 1.3rem;
+        --p-font: 1.5rem;
         transition: .3s;
     }
 }
@@ -1049,6 +1047,7 @@ header.sticky{
 
     .prev{
         grid-template-columns: 1fr;
+        padding: 100px 5%;
     }
 
     .prev-text h3{
@@ -1071,12 +1070,13 @@ header.sticky{
         margin-top: -150px;
     }
 
-    .top-title .prev-title{
-       padding: 10px 0%;
+    .top-title{
+        padding: 10px 3%;
     }
 
     .receita{
         grid-template-columns: 1fr;
+        padding: 10px 5%;
     }
     .receita-img{
         text-align: center;
@@ -1139,7 +1139,6 @@ header.sticky{
         padding: 70px 3%;
         transition: .3s;
     }
-    
 }
 
 @media screen and (max-width:767px) {
