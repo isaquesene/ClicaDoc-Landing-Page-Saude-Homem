@@ -14,4 +14,4 @@ sr.reveal('.prev-img',{delay: 300, origin:'right'})
 sr.reveal('.items',{delay: 300, origin:'left'})
 sr.reveal('.receita-img',{delay: 300, origin:'right'})
 
-sr.reveal('.sub-saude, .especial',{delay: 100, origin:'bottom'})
+sr.reveal('.sub-saude, .especial','.receitas',{delay: 100, origin:'bottom'})
